@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive quiz App</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .quiz-container { max-width: 600px; margin: auto; }
+        .question { font-size: 1.2em; margin-bottom: 10px; }
+        .answers { margin-bottom: 20px; }
+        button { padding: 10px 15px; font-size: 1em; }
+      </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz">
+          <div class="question" id="question">Question Text</div>
+          <div class="answers" id="answers"></div>
+          <button id="nextBtn">Next</button>
+        </div>
+        <div id="result" style="display:none; font-size: 1.3em; font-weight: bold;"></div>
+      </div>
+      
+<script src="index.js"></script>
+    
+</body>
+</html>
